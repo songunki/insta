@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+  <information>
+    <name>InstaStory Pro</name>
+    <version>1.1</version>
+    <description>인스타그램의 감성과 디테일을 극대화한 모바일 우선 티스토리 스킨</description>
+    <license>MIT License</license>
+  </information>
+  <author>
+    <name>Senior Frontend Engineer</name>
+    <homepage>https://tistory.com</homepage>
+  </author>
+  <default>
+    <recentEntries>15</recentEntries>
+    <pageType>1</pageType>
+  </default>
+  <variables>
+    <variable group="프로필 설정">
+      <name>instaHandle</name>
+      <label>인스타 아이디(핸들)</label>
+      <type>STRING</type>
+      <default>tistory_life</default>
+    </variable>
+    <variable group="프로필 설정">
+      <name>profileBio</name>
+      <label>자기소개</label>
+      <type>STRING</type>
+      <default>티스토리 스킨 개발자 | 디자인과 성능을 모두 잡는 감성 블로그 ✨</default>
+    </variable>
+  </variables>
+</skin>
